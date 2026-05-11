@@ -36,7 +36,7 @@ agent=researcher
 )
 
 task2 = Task(
-description='נסח סקר ויראלי מוכן לשליחה לוואטסאפ. בסוף ההודעה תוסיף את המשפט: "לעוד סקר בלחיצת כפתור: [כאן יבוא הלינק]"',
+description='נסח סקר ויראלי מוכן לשליחה לוואטסאפ. בסוף ההודעה תוסיף את המשפט: "לעוד סקר בלחיצת כפתור: [https://toker-survey-bot-bwxhj2s2zrxzfnvlgdmsk7.streamlit.app/]"',
 expected_output='הודעה סופית לוואטסאפ שכוללת שאלה ו-5 אפשרויות.',
 agent=writer
 )
