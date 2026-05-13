@@ -1,7 +1,5 @@
 import os
 import time
-import pyautogui
-import pyperclip
 from crewai import Agent, Task, Crew
 from crewai_tools import SerperDevTool
 import streamlit as st
@@ -52,10 +50,3 @@ print("="*30)
 
 time.sleep(15)
 
-# העתקה והדבקה לתוך החלון הקיים
-pyperclip.copy(result)
-pyautogui.hotkey('ctrl', 'v')
-time.sleep(1)
-pyautogui.press('enter')
-
-print("בוצע!")
