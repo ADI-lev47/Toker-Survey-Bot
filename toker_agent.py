@@ -41,7 +41,7 @@ task1 = Task(
 )
 
 task2 = Task(
-    description='נסח סקר ויראלי מוכן לשליחה לוואטסאפ. בסוף ההודעה תוסיף את המשפט: "לעוד סקר בלחיצת כפתור: [לינק]"',
+    description='נסח סקר ויראלי מוכן לשליחה לוואטסאפ. בסוף ההודעה תוסיף את המשפט: "לעוד סקר בלחיצת כפתור: [https://toker-survey-bot-2gupxpbtnc52as8ds5ecgn.streamlit.app/]"',
     expected_output='הודעה סופית לוואטסאפ שכוללת שאלה ו-5 אפשרויות.',
     agent=writer
 )
