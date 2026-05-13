@@ -1,3 +1,5 @@
+__import__('pydantic').v1.models.BaseModel.model_rebuild = lambda *args, **kwargs: None
+import streamlit as st
 import streamlit as st
 from toker_agent import run_crew
 import urllib.parse
