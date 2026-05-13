@@ -4,11 +4,10 @@ import pyautogui
 import pyperclip
 from crewai import Agent, Task, Crew
 from crewai_tools import SerperDevTool
-
+import streamlit as st
 # מפתחות (תוודאי שהם מודבקים כאן)
-os.environ["SERPER_API_KEY"] = "1f61d2caeedc52bec794e98ae819f238b33920b6"
-os.environ["OPENAI_API_KEY"] = "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"
-
+os.environ["SERPER_API_KEY"] = st.secrets ["SERPER_API_KEY"]
+os.environ["OPENAI_API_KEY"] = st.secrets ["OPENAI_API_KEY"]
 
 # 1. הגדרת הצוות (RAG + כתיבה)
 search_tool = SerperDevTool()
